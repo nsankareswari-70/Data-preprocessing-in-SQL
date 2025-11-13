@@ -125,7 +125,7 @@ group by SoldAsVacant order by ct ;
 
 ```
 <img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp4.png">
-
+```sql
 select soldasvacant,
 case
     when soldasvacant ='y' then 'Yes'
@@ -148,9 +148,9 @@ case
 -- counting 'Yes' and 'No'
 select soldasvacant,count(soldasvacant) from SqlDataExplore.dbo.housing
 group by soldasvacant order by 2;
-
+```
 <img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp5.png">
-
+```sql
 -- Finding Duplicates(104 duplicate values)
 with rownumcte as(
 select *,
@@ -197,7 +197,7 @@ from SqlDataExplore.dbo.housing
 
 alter table SqlDataExplore.dbo.housing
 drop column propertyaddress,taxdistrict,owneraddress
-
+```
 
 
 
