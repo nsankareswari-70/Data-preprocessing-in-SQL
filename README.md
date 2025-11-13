@@ -35,9 +35,13 @@ update housing set saledateconverted = convert(date,saledate)
 select * from SqlDataExplore.dbo.housing;
 ```
 <img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp1.png">
+<img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp2.png">
 
+```sql
 -- Display Property Address data
 select propertyaddress from SqlDataExplore.dbo.housing;
+```
+
 
 -- Check for missing address values
 select * from SqlDataExplore.dbo.housing where propertyaddress is null order by ParcelID;
