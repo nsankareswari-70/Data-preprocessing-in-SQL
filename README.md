@@ -18,7 +18,7 @@ Alter table housing add saledateconverted date;
 update housing set saledateconverted = convert(date,saledate)
 
 ```
-
+```sql
 select * from SqlDataExplore.dbo.housing;
 
 
@@ -32,7 +32,8 @@ Alter table housing add saledateconverted date;
 
 update housing set saledateconverted = convert(date,saledate)
 
-select * from 
+select * from SqlDataExplore.dbo.housing;
+```
 
 -- Display Property Address data
 select propertyaddress from SqlDataExplore.dbo.housing;
