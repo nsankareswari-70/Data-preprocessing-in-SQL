@@ -191,7 +191,7 @@ delete from rownumcte where row_num>1
 ```
 
     
-<img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp5.png"
+<img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp5.png">
 
 ```sql
 select * from SqlDataExplore.dbo.housing;
