@@ -111,7 +111,7 @@ set ownersplitstate =parsename(replace(owneraddress,',','.'),1)
 
 select * from SqlDataExplore.dbo.housing;
 ```
-
+<img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp3.png">
 -- viewing the distinct values of a column
 select distinct(soldasvacant) from SqlDataExplore.dbo.housing;
 
