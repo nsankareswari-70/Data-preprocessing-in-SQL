@@ -42,7 +42,7 @@ select * from SqlDataExplore.dbo.housing;
 select propertyaddress from SqlDataExplore.dbo.housing;
 ```
 
-
+```sql
 -- Check for missing address values
 select * from SqlDataExplore.dbo.housing where propertyaddress is null order by ParcelID;
 
@@ -110,6 +110,7 @@ update SqlDataExplore.dbo.housing
 set ownersplitstate =parsename(replace(owneraddress,',','.'),1)
 
 select * from SqlDataExplore.dbo.housing;
+```
 
 -- viewing the distinct values of a column
 select distinct(soldasvacant) from SqlDataExplore.dbo.housing;
