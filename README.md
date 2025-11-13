@@ -124,7 +124,10 @@ group by SoldAsVacant order by ct ;
 -- change Y to Yes and N to No in "Sold as vacant" field
 
 ```
+  
 <img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp4.png">
+
+
 ```sql
 select soldasvacant,
 case
@@ -187,6 +190,7 @@ delete from rownumcte where row_num>1
 --order by PropertyAddress
 ```
 <img src="https://github.com/nsankareswari-70/Data-preprocessing-in-SQL/blob/375b484cd7a1103077fc3f239700b8bbc1f36f11/hp5.png"
+
 ```sql
 select * from SqlDataExplore.dbo.housing;
 
