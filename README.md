@@ -3,21 +3,7 @@ Project Objective:
 To make the data accurate, consistent, and ready for modeling by handling issues like missing values, inconsistencies, and incorrect formats. 
 
 Import data from Excel file.
-```sql
-select * from SqlDataExplore.dbo.housing;
 
-
--- Standardize date format
-
-select SaleDate, convert(date,SaleDate) from SqlDataExplore.dbo.housing;
-
-update housing set SaleDate=convert(date,SaleDate)
-
-Alter table housing add saledateconverted date;
-
-update housing set saledateconverted = convert(date,saledate)
-
-```
 ```sql
 select * from SqlDataExplore.dbo.housing;
 
